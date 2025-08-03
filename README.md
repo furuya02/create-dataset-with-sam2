@@ -55,7 +55,7 @@ SAM2（Segment Anything Model 2）を使用して動画から機械学習用デ�
 │   │       ├── SAMPLE_00000.txt
 │   │       ├── SAMPLE_00001.txt
 │   │       └── ...
-│   └── TOMATO/
+│   └── SAMPLE2/
 │       ├── frame/
 │       ├── png/
 │       ├── preview/
@@ -79,7 +79,7 @@ SAM2（Segment Anything Model 2）を使用して動画から機械学習用デ�
 │       ├── train_od.py                # 物体検出学習
 │       ├── check_inference.py         # 推論テスト
 │       └── common/                    # 共通モジュール
-└── sample_mp4/          # サンプル動画ファイル
+└── SAMPLE_mp4/          # サンプル動画ファイル
 ```
 
 ## 必要な環境
