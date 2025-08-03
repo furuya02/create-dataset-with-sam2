@@ -1,0 +1,17 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "upload",
+      "type": "shell",
+      "command": "scp -r -r home/* user@192.168.1.100:~/CreateDataset_with_SAM2"
+    },
+    {
+      "label": "download",
+      "type": "shell",
+      "command": "scp -r user@192.168.1.100:~/CreateDataset_with_SAM2/src/dataset ."
+    }
+  ]
+}
